@@ -49,7 +49,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publications
+          - publication
         featured_only: true
     design:
       view: article-grid

@@ -2,7 +2,7 @@
 title: A parallel successive convex approximation framework with smoothing majorization
   for phase retrieval
 authors:
-- me
+- tianyi-liu
 date: '2024-10-01'
 publishDate: '2024-12-16T20:55:36.459768Z'
 publication_types:
