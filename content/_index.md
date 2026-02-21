@@ -36,6 +36,10 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
+      # spacing:
+      #   padding: ["6", "6", "6", "6"]
+      # columns: "1"
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
@@ -79,8 +83,7 @@ sections:
           - events
         featured_only: true
     design:
-      view: article-grid
-      columns: 1
+      view: card
   # - block: collection
   #   id: news
   #   content:

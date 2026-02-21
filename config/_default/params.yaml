@@ -19,7 +19,7 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Postdoc | TU Darmstadt"
     # Site meta description for search engines and social sharing
     description: "Postdoctoral Research Associate @ Communication Systems Group, TU Darmstadt"
     # Social accounts (used for meta tags like Twitter Cards)
@@ -96,8 +96,8 @@ hugoblox:
     # Call-to-action button
     cta:
       enable: false
-      text: ""
-      url: ""
+      text: "Contact"
+      url: "/contact/"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
