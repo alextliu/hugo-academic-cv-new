@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: tianyi-liu
 is_owner: true
 name:
-  display: Tianyi Liu
+  display: Dr.-Ing. Tianyi Liu
   given: Tianyi
   family: Liu
   alternate: '刘添翼'  # Example: 王伟
