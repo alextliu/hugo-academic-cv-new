@@ -13,23 +13,29 @@ sections:
     content:
       # Choose a user profile to display (a file name within `data/authors/`)
       username: me
-      text: ""
+      text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/cv_complete_TianyiLiu.pdf
+      headings:
+        about: 'Short Bio'
+        education: ''
+        interests: 'Research Interests'
     design:
-      css_class: light
-      # background:
-      #   color: black
-      #   image:
-      #     # Add your image background to `assets/media/`.
-      #     filename: stacked-peaks.svg
-      #     filters:
-      #       brightness: 1.0
-      #     size: cover
-      #     position: center
-      #     parallax: false
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      background:
+        gradient_mesh:
+          enable: true
+
+      # Name heading sizing to accommodate long or short names
+      name:
+        size: md # Options: xs, sm, md, lg (default), xl
+
+      # Avatar customization
+      avatar:
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
@@ -64,16 +70,17 @@ sections:
   #       exclude_featured: false
   #   design:
   #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     view: article-grid
-  #     columns: 1
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - events
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
   # - block: collection
   #   id: news
   #   content:

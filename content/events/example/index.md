@@ -31,7 +31,7 @@ tags:
   - Open Science
   - Academic
 
-featured: true
+featured: false
 
 image:
   caption: 'Presentation freedom with Markdown'
@@ -52,6 +52,9 @@ links:
 slides: "example"
 
 projects: []
+
+# Draft
+draft: true
 ---
 
 ## 🎯 Why Markdown Slides?
